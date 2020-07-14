@@ -14,7 +14,7 @@ fax = client.fax.faxes \
   .create(
     from_=FROM_FAX_NUMBER,
     to=TO_FAX_NUMBER,
-    media_url='https://github.com/adamchasetaylor/send-fax/raw/master/assets/fax.pdf'
+    media_url='https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf'
   )
 
 print(fax.sid)
